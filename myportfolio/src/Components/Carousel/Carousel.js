@@ -1,6 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
 import image2 from '../media/br.jpg'
-import image3 from '../media/amex.jpg'
 
 
 
@@ -17,9 +16,7 @@ function Carouselfun() {
     <div class="carousel-item active">
       <img class="d-block w-100" src={image2} alt="First slide"/>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src={image3} alt="Second slide"/>
-    </div>
+  
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
