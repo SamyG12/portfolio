@@ -1,0 +1,36 @@
+#col-1 {
+    position: right;
+    width: 50%;
+    float: right;
+    height: 100%;
+    z-index: 1010101010
+    
+  }
+  
+  #col-2 {
+    position: relative;
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-color: white;
+    z-index: 1010101010
+  }
+
+  .p{
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --dark-bg: #807b7b;
+    --gray-1: #BCB4B4;
+    --deep-dark: #ece5e5;
+    --gray-2: #696767;
+    --white : white;
+    --black: black;
+  }
+ 
