@@ -1,17 +1,19 @@
 import React from "react";
-import Carouselfun from "../Carousel/Carousel";
 import './Home.css';
+import pp from "../media/bp.png"
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 export default function Home(){
     return(
         <div className="Home" style={{backgroundColor: "#f2f4f8"}}>
         
             <div id="col-1">
-            <Carouselfun/> 
+            {/* <Carouselfun/>  */}
+            <img src={pp} alt="Nature" class="responsive"/>
             </div>
             <div id="col-2">
             <div className='one'><header classname="title" style={{fontFamily:"times new roman"}}>A little bit about me</header></div>
-            <p style={{fontFamily:"times new roman", marginTop:"10px",marginLeft:"5%", marginRight:"5%", fontSize: 22}}> 
+            <p style={{fontFamily:"times new roman", marginTop:"10px",marginLeft:"5%", marginRight:"5%", fontSize: "2vw"}}> 
                     My name is Samy Gadi, I have recently completed my bachelor's degree in computer science and 
                     information security. During Summer of 2022 I completed an internship as a Software Engineer 
                     at American Express,  had the chance to put to practice my developement skills that I learned in school
