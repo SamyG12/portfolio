@@ -28,13 +28,10 @@ export default function Home(){
                     Tools: Pycharm, XCode, Netbeans.
             </p>
 
-            <form action="https://drive.google.com/file/d/1lmYnzQpAbk6kC7czRfPVTP8769e2R5gp/view?usp=share_link">
-            <button type="submit" value="Go to Google" >Resume</button>
+            <form action="https://drive.google.com/file/d/1lmYnzQpAbk6kC7czRfPVTP8769e2R5gp/view?usp=share_link" target="_blank">
+            <button type="submit" value="Go to resume" >Resume</button>
             </form>
-            {/* <button onclick="https://drive.google.com/file/d/1lmYnzQpAbk6kC7czRfPVTP8769e2R5gp/view?usp=share_link">Resume</button> */}
-        
-            {/* <button onclick="location.href='https://drive.google.com/file/d/1lmYnzQpAbk6kC7czRfPVTP8769e2R5gp/view?usp=share_link'" type="button">
-            Resume</button> */}
+            
             </div>
 
         </div>
