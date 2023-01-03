@@ -8,7 +8,8 @@ import "./item.css"
 export default function ProjectItem({
   img= imga,
   title = 'Project Name',
-  desc = "Lorem"
+  desc = "Lorem",
+  link = "link"
 }){
 
         
@@ -19,9 +20,15 @@ export default function ProjectItem({
         </Link>
         <div className="projectItem__info" style={{fontFamily:"Times new Roman", fontSize:16, backgroundColor:"light grey"}}>
         <>
-          <h3 className="projectItem__title">{title}</h3>
+        
+        <form action={link} target="_blank">
+        <button type="submit" value="Go to github" >Github</button>
+        </form>
+          <h3 className="projectItem__title">{title}</h3> 
+          
         </>
         <p className="projectItem__desc">{desc}</p>
+        
       </div>
         </div>   
     )
